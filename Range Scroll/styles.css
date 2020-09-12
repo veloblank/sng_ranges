@@ -17,10 +17,20 @@ img {
 
 .range {
 	text-align: center;
+	height: 330px;
 }
 
 .range-description {
 	font-size: 18px;
 	font-weight: bold;
 	text-align: center;
+	width: 275px;
+	height: auto;
+}
+
+.extra {
+	font-size: 18px;
+	font-weight: bold;
+	text-align: center;
+	width: 275px;
 }
