@@ -3,6 +3,23 @@ img {
 }
 
 .ranges {
-	display: inline-block;
 	width: 1150px;
+}
+
+.call-ranges .range {
+	display: inline-block;
+}
+
+.push-ranges .range {
+	display: inline-block;
+}
+
+.range {
+	width: 25%;
+}
+
+.range-description {
+	font-size: 18px;
+	font-weight: bold;
+	text-align: center;
 }
