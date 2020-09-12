@@ -1,9 +1,10 @@
 img {
 	width: 275px;
+	margin: 5px 5px 0px 5px;
 }
 
 .ranges {
-	width: 1150px;
+	width: 1250px;
 }
 
 .call-ranges .range {
@@ -15,7 +16,6 @@ img {
 }
 
 .range {
-	width: 25%;
 	text-align: center;
 }
 
