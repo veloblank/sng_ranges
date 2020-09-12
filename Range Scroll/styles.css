@@ -16,12 +16,11 @@ img {
 }
 
 .range {
-	text-align: center;
 	height: 330px;
 }
 
 .range-description {
-	font-size: 18px;
+	font-size: 17px;
 	font-weight: bold;
 	text-align: center;
 	width: 275px;
@@ -29,7 +28,7 @@ img {
 }
 
 .extra {
-	font-size: 18px;
+	font-size: 17px;
 	font-weight: bold;
 	text-align: center;
 	width: 275px;
