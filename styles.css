@@ -16,6 +16,14 @@ img {
 	display: inline-block;
 }
 
+:focus.push {
+	background-color: green;
+}
+
+:focus.call {
+	background-color: red;
+}
+
 .range {
 	height: 330px;
 }
