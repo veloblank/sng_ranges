@@ -1,7 +1,6 @@
 * {
 	margin: 0px;
 	padding: 0px;
-	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
 }
 
@@ -26,10 +25,7 @@ img {
 .jump-nav {
 	position: fixed;
 	top: 370px;
-	display: -webkit-box;
-	display: -ms-flexbox;
 	display: flex;
-	-ms-flex-pack: distribute;
 	justify-content: space-around;
 	width: 1250px;
 	height: 26px;
@@ -47,8 +43,6 @@ img {
 }
 
 .ranges {
-	display: -webkit-box;
-	display: -ms-flexbox;
 	display: flex;
 	text-align: center;
 	width: 1250px;
