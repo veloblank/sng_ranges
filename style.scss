@@ -27,9 +27,8 @@ img {
 	top: 370px;
 	display: flex;
 	justify-content: space-around;
-	width: 1250px;
-	height: 26px;
-	background-color: black;
+	width: 100%;
+	height: auto;
 }
 
 .jump-nav a {
@@ -45,7 +44,7 @@ img {
 .ranges-container {
 	display: flex;
 	text-align: center;
-	width: 1250px;
+	width: 100%;
 }
 
 .range {
@@ -87,4 +86,13 @@ img {
 	font-weight: bold;
 	text-align: center;
 	width: 275px;
+}
+
+.left {
+	display: flex;
+	background-color: black;
+}
+.right {
+	display: flex;
+	background-color: black;
 }

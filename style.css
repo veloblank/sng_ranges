@@ -31,9 +31,8 @@ img {
   display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  width: 1250px;
-  height: 26px;
-  background-color: black;
+  width: 100%;
+  height: auto;
 }
 
 .jump-nav a {
@@ -51,7 +50,7 @@ img {
   display: -ms-flexbox;
   display: flex;
   text-align: center;
-  width: 1250px;
+  width: 100%;
 }
 
 .range {
@@ -93,5 +92,19 @@ img {
   font-weight: bold;
   text-align: center;
   width: 275px;
+}
+
+.left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: black;
+}
+
+.right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: black;
 }
 /*# sourceMappingURL=style.css.map */
