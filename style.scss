@@ -11,7 +11,7 @@ html {
 img {
 	width: 275px;
 	margin: 5px 5px 0px 5px;
-	border: 4px solid black;
+	border: 5px solid black;
 }
 
 .call {
@@ -20,6 +20,12 @@ img {
 
 .push {
 	text-align: center;
+}
+
+.ranges-container {
+	display: flex;
+	text-align: center;
+	width: 100%;
 }
 
 .jump-nav {
@@ -46,12 +52,6 @@ img {
 		font-weight: bold;
 		font-size: 24px;
 	}
-}
-
-.ranges-container {
-	display: flex;
-	text-align: center;
-	width: 100%;
 }
 
 .range {
