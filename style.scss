@@ -42,7 +42,7 @@ img {
 	font-size: 24px;
 }
 
-.ranges {
+.ranges-container {
 	display: flex;
 	text-align: center;
 	width: 1250px;
@@ -54,10 +54,12 @@ img {
 
 .call-ranges {
 	background-color: red;
+	width: 50%;
 }
 
 .push-ranges {
 	background-color: green;
+	width: 50%;
 }
 
 :focus.push {
