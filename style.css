@@ -93,18 +93,11 @@ img {
   height: 330px;
 }
 
-.range-description {
+.range-description, .extra {
   font-size: 17px;
   font-weight: bold;
   text-align: center;
   width: 275px;
   height: auto;
-}
-
-.extra {
-  font-size: 17px;
-  font-weight: bold;
-  text-align: center;
-  width: 275px;
 }
 /*# sourceMappingURL=style.css.map */

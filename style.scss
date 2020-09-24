@@ -1,3 +1,6 @@
+@import 'variables';
+@import 'mixins';
+
 * {
 	margin: 0px;
 	padding: 0px;
@@ -89,8 +92,5 @@ img {
 }
 
 .extra {
-	font-size: 17px;
-	font-weight: bold;
-	text-align: center;
-	width: 275px;
+	@extend .range-description;
 }
