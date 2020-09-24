@@ -35,6 +35,20 @@ img {
   height: auto;
 }
 
+.jump-nav .left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: black;
+}
+
+.jump-nav .right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: black;
+}
+
 .jump-nav a {
   list-style-type: none;
   text-decoration: underline;
@@ -92,19 +106,5 @@ img {
   font-weight: bold;
   text-align: center;
   width: 275px;
-}
-
-.left {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  background-color: black;
-}
-
-.right {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  background-color: black;
 }
 /*# sourceMappingURL=style.css.map */

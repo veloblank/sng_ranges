@@ -29,16 +29,23 @@ img {
 	justify-content: space-around;
 	width: 100%;
 	height: auto;
-}
-
-.jump-nav a {
-	list-style-type: none;
-	text-decoration: underline;
-	margin: 0px 15px;
-	cursor: pointer;
-	color: white;
-	font-weight: bold;
-	font-size: 24px;
+	.left {
+		display: flex;
+		background-color: black;
+	}
+	.right {
+		display: flex;
+		background-color: black;
+	}
+	a {
+		list-style-type: none;
+		text-decoration: underline;
+		margin: 0px 15px;
+		cursor: pointer;
+		color: white;
+		font-weight: bold;
+		font-size: 24px;
+	}
 }
 
 .ranges-container {
@@ -86,13 +93,4 @@ img {
 	font-weight: bold;
 	text-align: center;
 	width: 275px;
-}
-
-.left {
-	display: flex;
-	background-color: black;
-}
-.right {
-	display: flex;
-	background-color: black;
 }
