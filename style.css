@@ -118,4 +118,34 @@ img.bloch_jam {
   width: 275px;
   height: auto;
 }
+
+table {
+  display: inline-block;
+  width: 400px;
+  border: 5px solid black;
+  cursor: pointer;
+  padding: 5px;
+}
+
+table td {
+  font-size: 11.5px;
+  font-weight: bold;
+  text-align: center;
+  border: 1px solid black;
+  height: 25px;
+  width: 25px;
+}
+
+table td:hover {
+  background-color: black;
+  color: white;
+}
+
+table td.pair {
+  background-color: green;
+}
+
+table td.suited {
+  background-color: #f87373;
+}
 /*# sourceMappingURL=style.css.map */
