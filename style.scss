@@ -109,6 +109,11 @@ img.bloch_jam {
 	@extend .range-description;
 }
 
+.bloch_tables {
+	display: flex;
+	justify-content: space-around;
+}
+
 table {
 	display: inline-block;
 	width: 400px;
