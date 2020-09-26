@@ -1,354 +1,354 @@
 <!DOCTYPE html>
 <html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="style.css" />
+		<title>Document</title>
+	</head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="style.css" />
-  <title>Document</title>
-</head>
-
-<body>
-  <header>
-    <h1>Push/Call Ranges</h1>
-  </header>
-  <main>
-    <div class="jump-nav">
-      <div class="left">
-        <a href="#range1">22</a>
-        <a href="#range7">33</a>
-        <a href="#range7">44</a>
-        <a href="#range7">55</a>
-        <a href="#range7">66</a>
-        <a href="#range7">77</a>
-        <a href="#range7">88</a>
-        <a href="#range7">99</a>
+	<body>
+		<header>
+			<h1>Push/Call Ranges</h1>
+		</header>
+		<main>
+			<div class="jump-nav">
+				<div class="left">
+					<a href="#range1">22</a>
+					<a href="#range7">33</a>
+					<a href="#range7">44</a>
+					<a href="#range7">55</a>
+					<a href="#range7">66</a>
+					<a href="#range7">77</a>
+					<a href="#range7">88</a>
+					<a href="#range7">99</a>
+				</div>
+				<div class="right">
+					<a href="#range7">22</a>
+					<a href="#range7">A2o</a>
+					<a href="#range7">K8o</a>
+					<a href="#range7">Q9o</a>
+					<a href="#range7">J8o</a>
+					<a href="#range7">T9o</a>
+					<a href="#range7">J8s</a>
+					<a href="#range7">76s</a>
+				</div>
       </div>
-      <div class="right">
-        <a href="#range7">22</a>
-        <a href="#range7">A2o</a>
-        <a href="#range7">K8o</a>
-        <a href="#range7">Q9o</a>
-        <a href="#range7">J8o</a>
-        <a href="#range7">T9o</a>
-        <a href="#range7">J8s</a>
-        <a href="#range7">76s</a>
-      </div>
-    </div>
-    <div class="ranges-container">
-      <div class="bloch_call">
-        <img src="./img/bloch_call.png" <br />
-        <div class="range-description">_</div>
-        <div class="extra">_</div>
-      </div>
-      <div class="call-ranges">
-        <h2 class="call" tabindex="0">Call</h2>
-        <div class="range">
-          <img src="./img/call_2.png" <br />
-          <div class="range-description">QQ+,AKs</div>
-          <div class="extra">_</div>
-        </div>
-        <div class="range">
-          <img src="./img/call_5.png" <br />
-          <div class="range-description">99+,AQs+,AQo+</div>
-          <div class="extra">_</div>
-        </div>
-        <div class="range">
-          <img src="./img/call_7.png" <br />
-          <div class="range-description">77+,ATs+,AQo+</div>
-          <div class="extra">_</div>
-        </div>
-        <div class="range">
-          <img src="./img/call_10.png" <br />
-          <div class="range-description">66+,A8s+,ATo+,KQs+</div>
-          <div class="extra">_</div>
-        </div>
-        <div class="range">
-          <img src="./img/call_12.png" <br />
-          <div class="range-description">55+,A8s+,A9o+,KJs+,KQo</div>
-          <div class="extra">_</div>
-        </div>
-        <div class="range">
-          <img src="./img/call_15.png" <br />
-          <div class="range-description">44+,A5s+,A8o+,KTs+,KQo</div>
-          <div class="extra">_</div>
-        </div>
-        <div class="range">
-          <img src="./img/call_17.png" <br />
-          <div class="range-description">44+,A4s+,A7o+,KTs+,KJo+,QJs</div>
-          <div class="extra">_</div>
-        </div>
-        <div class="range">
-          <img src="./img/call_20.png" <br />
-          <div class="range-description">33+,A2s+,A7o+,K9s+,KTo+,QTs+</div>
-          <div class="extra">_</div>
-        </div>
-        <div class="range">
-          <img src="./img/call_22.png" <br />
-          <div class="range-description">33+,A2s+,A5o+,K9s+,KTo+,QTs+</div>
-          <div class="extra">_</div>
-        </div>
-        <div class="range">
-          <img src="./img/call_25.png" <br />
-          <div class="range-description">33+,A2s+,A4o+,K8s+,K9o+,QTs+</div>
-          <div class="extra">QJo,JTs</div>
-        </div>
-        <div class="range">
-          <img src="./img/call_27.png" <br />
-          <div class="range-description">33+,A2s+,A2o+,K8s+,K9o+,Q9s+</div>
-          <div class="extra">QJo,JTs</div>
-        </div>
-        <div class="range" id="range1">
-          <img src="./img/call_30.png" <br />
-          <div class="range-description">22+,A2s+,A2o+,K6s+,K8o+,Q9s+</div>
-          <div class="extra">QTo+,JTs</div>
-        </div>
-        <div class="range">
-          <img src="./img/call_32.png" <br />
-          <div class="range-description">22+,A2s+,A2o+,K5s+,K7o+,Q8s+</div>
-          <div class="extra">QTo+,J9s+</div>
-        </div>
-        <div class="range">
-          <img src="./img/call_35.png" <br />
-          <div class="range-description">22+,A2s+,A2o+,K3s+,K6o+,Q8s+</div>
-          <div class="extra">Q9o+,J9s+,JTo,T9s</div>
-        </div>
-        <div class="range">
-          <img src="./img/call_37.png" <br />
-          <div class="range-description">22+,A2s+,A2o+,K2s+,K6o+,Q7s+</div>
-          <div class="extra">Q8o+,J8s+,JTo,T9s</div>
-        </div>
-        <div class="range">
-          <img src="./img/call_40.png" <br />
-          <div class="range-description">22+,A2s+,A2o+,K2s+,K5o+,Q5s+</div>
-          <div class="extra">Q8o+,J8s+,J9o+,T8s</div>
-        </div>
-        <div class="range">
-          <img src="./img/call_42.png" <br />
-          <div class="range-description">22+,A2s+,A2o+,K2s+,K3o+,Q5s+</div>
-          <div class="extra">Q8o+,J7s+,J9o+,T8s</div>
-        </div>
-        <div class="range">
-          <img src="./img/call_45.png" <br />
-          <div class="range-description">22+,A2s+,A2o+,K2s+,K3o+,Q5s+</div>
-          <div class="extra">Q7o+,J7s+,J9o+,T8s,T9o</div>
-        </div>
-        <div class="range">
-          <img src="./img/call_47.png" <br />
+      <div class="bloch_images">
+        <div class="bloch_call_div">
+          <img class="bloch_call" src="./img/bloch_call.png" <br />
           <div class="range-description"></div>
-          <div class="extra">_</div>
+          <div class="extra"></div>
         </div>
-        <div class="range">
-          <img src="./img/call_50.png" <br />
-          <div class="range-description"></div>
-          <div class="extra">_</div>
-        </div>
-        <div class="range">
-          <img src="./img/call_52.png" <br />
-          <div class="range-description"></div>
-          <div class="extra">_</div>
-        </div>
-        <div class="range">
-          <img src="./img/call_55.png" <br />
-          <div class="range-description"></div>
-          <div class="extra">_</div>
-        </div>
-        <div class="range">
-          <img src="./img/call_57.png" <br />
-          <div class="range-description"></div>
-          <div class="extra">_</div>
-        </div>
-        <div class="range">
-          <img src="./img/call_60.png" <br />
-          <div class="range-description"></div>
-          <div class="extra">_</div>
-        </div>
-        <div class="range">
-          <img src="./img/call_62.png" <br />
-          <div class="range-description"></div>
-          <div class="extra">_</div>
-        </div>
-        <div class="range">
-          <img src="./img/call_65.png" <br />
-          <div class="range-description"></div>
-          <div class="extra">_</div>
-        </div>
-        <div class="range">
-          <img src="./img/call_67.png" <br />
-          <div class="range-description"></div>
-          <div class="extra">_</div>
-        </div>
-        <div class="range">
-          <img src="./img/call_70.png" <br />
-          <div class="range-description"></div>
-          <div class="extra">_</div>
-        </div>
-        <div class="range">
-          <img src="./img/call_72.png" <br />
-          <div class="range-description"></div>
-          <div class="extra">_</div>
-        </div>
-        <div class="range">
-          <img src="./img/call_75.png" <br />
-          <div class="range-description"></div>
-          <div class="extra">_</div>
-        </div>
-        <div class="range">
-          <img src="./img/call_77.png" <br />
-          <div class="range-description"></div>
-          <div class="extra">_</div>
-        </div>
-        <div class="range">
-          <img src="./img/call_80.png" <br />
-          <div class="range-description"></div>
-          <div class="extra">_</div>
-        </div>
-      </div>
-      <div class="bloch_jam">
-        <img src="./img/bloch_jam.png" <br />
-        <div class="range-description"></div>
-      </div>
-      <div class="push-ranges">
-        <h2 class="push" tabindex="0">Push</h2>
-        <div class="range">
-          <img src="./img/jam_2.png" <br />
-          <div class="range-description"></div>
-        </div>
-        <div class="range">
-          <img src="./img/jam_5.png" <br />
-          <div class="range-description"></div>
-        </div>
-        <div class="range">
-          <img src="./img/jam_7.png" <br />
-          <div class="range-description"></div>
-        </div>
-        <div class="range">
-          <img src="./img/jam_10.png" <br />
-          <div class="range-description"></div>
-        </div>
-        <div class="range">
-          <img src="./img/jam_12.png" <br />
-          <div class="range-description"></div>
-        </div>
-        <div class="range">
-          <img src="./img/jam_15.png" <br />
-          <div class="range-description"></div>
-        </div>
-        <div class="range">
-          <img src="./img/jam_17.png" <br />
-          <div class="range-description"></div>
-        </div>
-        <div class="range">
-          <img src="./img/jam_20.png" <br />
-          <div class="range-description"></div>
-        </div>
-        <div class="range">
-          <img src="./img/jam_22.png" <br />
-          <div class="range-description"></div>
-        </div>
-        <div class="range">
-          <img src="./img/jam_25.png" <br />
-          <div class="range-description"></div>
-        </div>
-        <div class="range">
-          <img src="./img/jam_27.png" <br />
-          <div class="range-description"></div>
-        </div>
-        <div class="range">
-          <div class="range-description"></div>
-          <img src="./img/jam_30.png" <br />
-        </div>
-        <div class="range">
-          <div class="range-description"></div>
-          <img src="./img/jam_32.png" <br />
-        </div>
-        <div class="range">
-          <img src="./img/jam_35.png" <br />
-          <div class="range-description"></div>
-        </div>
-        <div class="range">
-          <img src="./img/jam_37.png" <br />
-          <div class="range-description"></div>
-        </div>
-        <div class="range">
-          <img src="./img/jam_40.png" <br />
-          <div class="range-description"></div>
-        </div>
-        <div class="range">
-          <img src="./img/jam_42.png" <br />
-          <div class="range-description"></div>
-        </div>
-        <div class="range">
-          <img src="./img/jam_45.png" <br />
-          <div class="range-description"></div>
-        </div>
-        <div class="range">
-          <div class="range-description"></div>
-          <img src="./img/jam_47.png" <br />
-        </div>
-        <div class="range">
-          <img src="./img/jam_50.png" <br />
-          <div class="range-description"></div>
-        </div>
-        <div class="range">
-          <img src="./img/jam_52.png" <br />
-          <div class="range-description"></div>
-        </div>
-        <div class="range">
-          <img src="./img/jam_55.png" <br />
-          <div class="range-description"></div>
-        </div>
-        <div class="range">
-          <img src="./img/jam_57.png" <br />
-          <div class="range-description"></div>
-        </div>
-        <div class="range">
-          <img src="./img/jam_60.png" <br />
-          <div class="range-description"></div>
-        </div>
-        <div class="range">
-          <img src="./img/jam_62.png" <br />
-          <div class="range-description"></div>
-        </div>
-        <div class="range">
-          <img src="./img/jam_65.png" <br />
-          <div class="range-description"></div>
-        </div>
-        <div class="range">
-          <img src="./img/jam_67.png" <br />
-          <div class="range-description"></div>
-        </div>
-        <div class="range">
-          <img src="./img/jam_70.png" <br />
-          <div class="range-description"></div>
-        </div>
-        <div class="range">
-          <img src="./img/jam_72.png" <br />
-          <div class="range-description"></div>
-        </div>
-        <div class="range">
-          <img src="./img/jam_75.png" <br />
-          <div class="range-description"></div>
-        </div>
-        <div class="range">
-          <img src="./img/jam_77.png" <br />
-          <div class="range-description"></div>
-        </div>
-        <div class="range">
-          <img src="./img/jam_80.png" <br />
-          <div class="range-description"></div>
-        </div>
-        <div class="range">
-          <img src="./img/jam_82.png" <br />
-          <div class="range-description"></div>
-        </div>
-        <div class="range">
-          <img src="./img/jam_85.png" <br />
+        <div class="bloch_jam_div">
+          <img class="bloch_jam" src="./img/bloch_jam.png" <br />
           <div class="range-description"></div>
         </div>
       </div>
-    </div>
-  </main>
-</body>
-
+			<div class="ranges-container">
+				<div class="call-ranges">
+					<h2 class="call" tabindex="0">Call</h2>
+					<div class="range">
+						<img src="./img/call_2.png" <br />
+						<div class="range-description">QQ+,AKs</div>
+						<div class="extra">_</div>
+					</div>
+					<div class="range">
+						<img src="./img/call_5.png" <br />
+						<div class="range-description">99+,AQs+,AQo+</div>
+						<div class="extra">_</div>
+					</div>
+					<div class="range">
+						<img src="./img/call_7.png" <br />
+						<div class="range-description">77+,ATs+,AQo+</div>
+						<div class="extra">_</div>
+					</div>
+					<div class="range">
+						<img src="./img/call_10.png" <br />
+						<div class="range-description">66+,A8s+,ATo+,KQs+</div>
+						<div class="extra">_</div>
+					</div>
+					<div class="range">
+						<img src="./img/call_12.png" <br />
+						<div class="range-description">55+,A8s+,A9o+,KJs+,KQo</div>
+						<div class="extra">_</div>
+					</div>
+					<div class="range">
+						<img src="./img/call_15.png" <br />
+						<div class="range-description">44+,A5s+,A8o+,KTs+,KQo</div>
+						<div class="extra">_</div>
+					</div>
+					<div class="range">
+						<img src="./img/call_17.png" <br />
+						<div class="range-description">44+,A4s+,A7o+,KTs+,KJo+,QJs</div>
+						<div class="extra">_</div>
+					</div>
+					<div class="range">
+						<img src="./img/call_20.png" <br />
+						<div class="range-description">33+,A2s+,A7o+,K9s+,KTo+,QTs+</div>
+						<div class="extra">_</div>
+					</div>
+					<div class="range">
+						<img src="./img/call_22.png" <br />
+						<div class="range-description">33+,A2s+,A5o+,K9s+,KTo+,QTs+</div>
+						<div class="extra">_</div>
+					</div>
+					<div class="range">
+						<img src="./img/call_25.png" <br />
+						<div class="range-description">33+,A2s+,A4o+,K8s+,K9o+,QTs+</div>
+						<div class="extra">QJo,JTs</div>
+					</div>
+					<div class="range">
+						<img src="./img/call_27.png" <br />
+						<div class="range-description">33+,A2s+,A2o+,K8s+,K9o+,Q9s+</div>
+						<div class="extra">QJo,JTs</div>
+					</div>
+					<div class="range" id="range1">
+						<img src="./img/call_30.png" <br />
+						<div class="range-description">22+,A2s+,A2o+,K6s+,K8o+,Q9s+</div>
+						<div class="extra">QTo+,JTs</div>
+					</div>
+					<div class="range">
+						<img src="./img/call_32.png" <br />
+						<div class="range-description">22+,A2s+,A2o+,K5s+,K7o+,Q8s+</div>
+						<div class="extra">QTo+,J9s+</div>
+					</div>
+					<div class="range">
+						<img src="./img/call_35.png" <br />
+						<div class="range-description">22+,A2s+,A2o+,K3s+,K6o+,Q8s+</div>
+						<div class="extra">Q9o+,J9s+,JTo,T9s</div>
+					</div>
+					<div class="range">
+						<img src="./img/call_37.png" <br />
+						<div class="range-description">22+,A2s+,A2o+,K2s+,K6o+,Q7s+</div>
+						<div class="extra">Q8o+,J8s+,JTo,T9s</div>
+					</div>
+					<div class="range">
+						<img src="./img/call_40.png" <br />
+						<div class="range-description">22+,A2s+,A2o+,K2s+,K5o+,Q5s+</div>
+						<div class="extra">Q8o+,J8s+,J9o+,T8s</div>
+					</div>
+					<div class="range">
+						<img src="./img/call_42.png" <br />
+						<div class="range-description">22+,A2s+,A2o+,K2s+,K3o+,Q5s+</div>
+						<div class="extra">Q8o+,J7s+,J9o+,T8s</div>
+					</div>
+					<div class="range">
+						<img src="./img/call_45.png" <br />
+						<div class="range-description">22+,A2s+,A2o+,K2s+,K3o+,Q5s+</div>
+						<div class="extra">Q7o+,J7s+,J9o+,T8s,T9o</div>
+					</div>
+					<div class="range">
+						<img src="./img/call_47.png" <br />
+						<div class="range-description"></div>
+						<div class="extra"></div>
+					</div>
+					<div class="range">
+						<img src="./img/call_50.png" <br />
+						<div class="range-description"></div>
+						<div class="extra">_</div>
+					</div>
+					<div class="range">
+						<img src="./img/call_52.png" <br />
+						<div class="range-description"></div>
+						<div class="extra">_</div>
+					</div>
+					<div class="range">
+						<img src="./img/call_55.png" <br />
+						<div class="range-description"></div>
+						<div class="extra">_</div>
+					</div>
+					<div class="range">
+						<img src="./img/call_57.png" <br />
+						<div class="range-description"></div>
+						<div class="extra">_</div>
+					</div>
+					<div class="range">
+						<img src="./img/call_60.png" <br />
+						<div class="range-description"></div>
+						<div class="extra">_</div>
+					</div>
+					<div class="range">
+						<img src="./img/call_62.png" <br />
+						<div class="range-description"></div>
+						<div class="extra">_</div>
+					</div>
+					<div class="range">
+						<img src="./img/call_65.png" <br />
+						<div class="range-description"></div>
+						<div class="extra">_</div>
+					</div>
+					<div class="range">
+						<img src="./img/call_67.png" <br />
+						<div class="range-description"></div>
+						<div class="extra">_</div>
+					</div>
+					<div class="range">
+						<img src="./img/call_70.png" <br />
+						<div class="range-description"></div>
+						<div class="extra">_</div>
+					</div>
+					<div class="range">
+						<img src="./img/call_72.png" <br />
+						<div class="range-description"></div>
+						<div class="extra">_</div>
+					</div>
+					<div class="range">
+						<img src="./img/call_75.png" <br />
+						<div class="range-description"></div>
+						<div class="extra">_</div>
+					</div>
+					<div class="range">
+						<img src="./img/call_77.png" <br />
+						<div class="range-description"></div>
+						<div class="extra">_</div>
+					</div>
+					<div class="range">
+						<img src="./img/call_80.png" <br />
+						<div class="range-description"></div>
+						<div class="extra">_</div>
+					</div>
+				</div>
+				<div class="push-ranges">
+					<h2 class="push" tabindex="0">Push</h2>
+					<div class="range">
+						<img src="./img/jam_2.png" <br />
+						<div class="range-description"></div>
+					</div>
+					<div class="range">
+						<img src="./img/jam_5.png" <br />
+						<div class="range-description"></div>
+					</div>
+					<div class="range">
+						<img src="./img/jam_7.png" <br />
+						<div class="range-description"></div>
+					</div>
+					<div class="range">
+						<img src="./img/jam_10.png" <br />
+						<div class="range-description"></div>
+					</div>
+					<div class="range">
+						<img src="./img/jam_12.png" <br />
+						<div class="range-description"></div>
+					</div>
+					<div class="range">
+						<img src="./img/jam_15.png" <br />
+						<div class="range-description"></div>
+					</div>
+					<div class="range">
+						<img src="./img/jam_17.png" <br />
+						<div class="range-description"></div>
+					</div>
+					<div class="range">
+						<img src="./img/jam_20.png" <br />
+						<div class="range-description"></div>
+					</div>
+					<div class="range">
+						<img src="./img/jam_22.png" <br />
+						<div class="range-description"></div>
+					</div>
+					<div class="range">
+						<img src="./img/jam_25.png" <br />
+						<div class="range-description"></div>
+					</div>
+					<div class="range">
+						<img src="./img/jam_27.png" <br />
+						<div class="range-description"></div>
+					</div>
+					<div class="range">
+						<div class="range-description"></div>
+						<img src="./img/jam_30.png" <br />
+					</div>
+					<div class="range">
+						<div class="range-description"></div>
+						<img src="./img/jam_32.png" <br />
+					</div>
+					<div class="range">
+						<img src="./img/jam_35.png" <br />
+						<div class="range-description"></div>
+					</div>
+					<div class="range">
+						<img src="./img/jam_37.png" <br />
+						<div class="range-description"></div>
+					</div>
+					<div class="range">
+						<img src="./img/jam_40.png" <br />
+						<div class="range-description"></div>
+					</div>
+					<div class="range">
+						<img src="./img/jam_42.png" <br />
+						<div class="range-description"></div>
+					</div>
+					<div class="range">
+						<img src="./img/jam_45.png" <br />
+						<div class="range-description"></div>
+					</div>
+					<div class="range">
+						<div class="range-description"></div>
+						<img src="./img/jam_47.png" <br />
+					</div>
+					<div class="range">
+						<img src="./img/jam_50.png" <br />
+						<div class="range-description"></div>
+					</div>
+					<div class="range">
+						<img src="./img/jam_52.png" <br />
+						<div class="range-description"></div>
+					</div>
+					<div class="range">
+						<img src="./img/jam_55.png" <br />
+						<div class="range-description"></div>
+					</div>
+					<div class="range">
+						<img src="./img/jam_57.png" <br />
+						<div class="range-description"></div>
+					</div>
+					<div class="range">
+						<img src="./img/jam_60.png" <br />
+						<div class="range-description"></div>
+					</div>
+					<div class="range">
+						<img src="./img/jam_62.png" <br />
+						<div class="range-description"></div>
+					</div>
+					<div class="range">
+						<img src="./img/jam_65.png" <br />
+						<div class="range-description"></div>
+					</div>
+					<div class="range">
+						<img src="./img/jam_67.png" <br />
+						<div class="range-description"></div>
+					</div>
+					<div class="range">
+						<img src="./img/jam_70.png" <br />
+						<div class="range-description"></div>
+					</div>
+					<div class="range">
+						<img src="./img/jam_72.png" <br />
+						<div class="range-description"></div>
+					</div>
+					<div class="range">
+						<img src="./img/jam_75.png" <br />
+						<div class="range-description"></div>
+					</div>
+					<div class="range">
+						<img src="./img/jam_77.png" <br />
+						<div class="range-description"></div>
+					</div>
+					<div class="range">
+						<img src="./img/jam_80.png" <br />
+						<div class="range-description"></div>
+					</div>
+					<div class="range">
+						<img src="./img/jam_82.png" <br />
+						<div class="range-description"></div>
+					</div>
+					<div class="range">
+						<img src="./img/jam_85.png" <br />
+						<div class="range-description"></div>
+					</div>
+				</div>
+			</div>
+		</main>
+	</body>
 </html>

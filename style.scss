@@ -33,7 +33,7 @@ img {
 
 .jump-nav {
 	position: fixed;
-	top: 370px;
+	top: 780px;
 	display: flex;
 	justify-content: space-around;
 	width: 100%;
@@ -59,6 +59,20 @@ img {
 
 .range {
 	display: inline-block;
+}
+
+img.bloch_call {
+	width: 400px;
+	display: inline-block;
+}
+img.bloch_jam {
+	width: 400px;
+	display: inline-block;
+}
+
+.bloch_images {
+	display: flex;
+	justify-content: space-around;
 }
 
 .call-ranges {
