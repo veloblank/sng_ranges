@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
+		<link rel="stylesheet" href="style.css" />
 		<title>Document</title>
 	</head>
 
@@ -35,7 +35,8 @@
 				</div>
 			</div>
 			<div class="bloch_tables">
-				<table>
+				<div class="villain-range" id="villain-push">15%</div>
+				<table id="bloch_call">
 					<tr>
 						<td class="pair">AA</td>
 						<td class="pair">KK</td>
@@ -232,7 +233,7 @@
 						<td>32o</td>
 					</tr>
 				</table>
-				<table>
+				<table id="bloch_jam">
 					<tr>
 						<td class="pair">AA</td>
 						<td class="suited">AKs</td>
@@ -429,6 +430,7 @@
 						<td class="unsuited">Q2o</td>
 					</tr>
 				</table>
+				<div class="villain-range" id="villain-call">35%</div>
 			</div>
 			<div class="ranges-container">
 				<div class="call-ranges">
@@ -734,7 +736,7 @@
 					</div>
 				</div>
 			</div>
-    </main>
-    <script src="./index.js"></script>
-  </body>
+		</main>
+		<script src="./index.js"></script>
+	</body>
 </html>
