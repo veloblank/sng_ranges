@@ -15,6 +15,10 @@ img {
   border: 5px solid black;
 }
 
+.hidden {
+  display: none;
+}
+
 .call {
   text-align: center;
 }
