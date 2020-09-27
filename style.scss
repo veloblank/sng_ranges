@@ -144,6 +144,15 @@ table {
 	}
 }
 
+table#bloch_call_hidden,
+table#bloch_jam_hidden {
+	border: 5px dotted black;
+	td {
+		vertical-align: middle;
+		text-align: center;
+	}
+}
+
 .villain-range {
 	text-align: center;
 	font-size: 45px;
