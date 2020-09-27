@@ -8,14 +8,12 @@ function addListeners() {
 }
 
 function toggleCallRange() {
-  let callTable = document.getElementById("bloch_call_hidden");
-  callTable.classList.toggle("hidden")
-  console.log(callTable.classList)
+  let pushTable = document.getElementById("bloch_jam_hidden");
+  pushTable.classList.toggle("hidden")
 }
 
 function togglePushRange() {
-  let pushTable = document.getElementById("bloch_jam_hidden");
-  pushTable.classList.toggle("hidden")
-  console.log(pushTable.classList)
+  let callTable = document.getElementById("bloch_call_hidden");
+  callTable.classList.toggle("hidden")
 }
 
