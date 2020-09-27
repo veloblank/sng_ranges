@@ -114,12 +114,12 @@ img.bloch_jam {
 }
 
 .bloch_tables {
+	width: 100%;
 	display: flex;
 	justify-content: space-around;
 }
 
 table {
-	display: inline-block;
 	width: 400px;
 	border: 5px solid black;
 	cursor: pointer;
@@ -146,10 +146,17 @@ table {
 
 table#bloch_call_hidden,
 table#bloch_jam_hidden {
+	@extend table;
 	border: 5px dotted black;
+	vertical-align: middle;
+	text-align: center;
+}
+
+.p-row,
+.c-row {
+	display: inline-block;
 	td {
-		vertical-align: middle;
-		text-align: center;
+		display: block;
 	}
 }
 
@@ -166,4 +173,10 @@ table#bloch_jam_hidden {
 	width: auto;
 	height: auto;
 	border: 2px solid black;
+}
+
+@media screen and (max-width: 1250px) {
+	.bloch_tables {
+		transform: scale(0.85);
+	}
 }
