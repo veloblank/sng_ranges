@@ -1,0 +1,46 @@
+class="pair">AA class="suited">AKs class="unsuited">AKo class="pair">KK
+class="suited">A4s class="suited">A5s class="pair">QQ class="suited">AQs
+class="pair">JJ class="pair">TT class="suited">AJs class="suited">KQs
+class="unsuited">AQo class="suited">ATs class="suited">KJs class="suited">QJs
+class="suited">KTs class="pair">99 class="suited">QTs class="pair">88
+class="unsuited">AJo class="suited">JTs class="pair">66 class="pair">77
+class="pair">55 class="suited">A9s class="unsuited">KQo class="suited">K9s
+class="pair">44 class="suited">T9s class="suited">A8s class="suited">J9s
+class="suited">Q9s class="unsuited">KJo class="pair">33 class="unsuited">ATo
+class="suited">A7s class="suited">K8s class="suited">A3s class="suited">T8s
+class="suited">98s class="pair">22 class="suited">A6s class="suited">Q8s
+class="unsuited">QJo class="suited">J8s class="suited">K7s class="suited">A2s
+class="unsuited">A9o class="unsuited">A8o class="suited">87s
+class="unsuited">A7o class="unsuited">QTo class="unsuited">JTo
+class="unsuited">KTo class="unsuited">A5o class="suited">K6s class="suited">T7s
+class="suited">97s class="suited">76s class="unsuited">A4o class="unsuited">A6o
+class="suited">K5s class="suited">J7s class="suited">86s class="unsuited">A3o
+class="unsuited">A2o class="suited">65s class="suited">Q6s class="unsuited">T9o
+class="suited">96s class="suited">Q7s class="suited">K4s class="unsuited">K9o
+class="unsuited">J9o class="suited">75s class="suited">54s class="unsuited">Q9o
+class="suited">T6s class="suited">K3s class="suited">Q5s class="unsuited">98o
+class="suited">K2s class="suited">J6s class="suited">85s class="unsuited">K8o
+class="unsuited">K7o class="unsuited">T8o class="suited">64s
+class="unsuited">K6o class="suited">Q4s class="suited">J5s class="unsuited">K5o
+class="suited">Q3s class="suited">J4s class="suited">95s class="unsuited">87o
+class="unsuited">Q8o class="unsuited">K4o class="unsuited">J8o
+class="unsuited">K3o class="unsuited">K2o class="suited">Q2s class="suited">74s
+class="suited">J3s class="suited">T5s class="suited">T4s class="unsuited">97o
+class="unsuited">Q7o class="unsuited">Q6o class="unsuited">76o
+class="unsuited">Q5o class="unsuited">T7o class="unsuited">J7o
+class="suited">J2s class="unsuited">Q4o class="suited">84s class="unsuited">Q3o
+class="suited">T3s class="unsuited">86o class="unsuited">J6o
+class="unsuited">J5o class="suited">T2s class="suited">94s class="unsuited">J4o
+class="unsuited">T6o class="unsuited">J3o class="unsuited">96o
+class="unsuited">J2o class="suited">93s class="unsuited">T5o
+class="unsuited">T4o class="unsuited">95o class="unsuited">T3o
+class="suited">92s class="unsuited">T2o class="unsuited">85o class="suited">83s
+class="unsuited">75o class="suited">82s class="unsuited">94o
+class="unsuited">93o class="unsuited">65o class="suited">73s class="suited">53s
+class="suited">63s class="unsuited">84o class="suited">43s class="unsuited">74o
+class="unsuited">54o class="suited">72s class="unsuited">64o class="suited">52s
+class="unsuited">92o class="suited">62s class="unsuited">83o class="suited">42s
+class="unsuited">82o class="unsuited">73o class="unsuited">53o
+class="unsuited">63o class="suited">32s class="unsuited">43o
+class="unsuited">72o class="unsuited">52o class="unsuited">62o
+class="unsuited">42o class="unsuited">32o class="unsuited">Q2o

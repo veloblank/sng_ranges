@@ -18,6 +18,10 @@ img {
 	max-width: 100%;
 }
 
+.hidden {
+	display: none;
+}
+
 .call {
 	text-align: center;
 }
@@ -34,7 +38,7 @@ img {
 
 .jump-nav {
 	position: fixed;
-	top: 370px;
+	top: 780px;
 	display: flex;
 	justify-content: space-around;
 	width: 100%;
@@ -60,6 +64,20 @@ img {
 
 .range {
 	display: inline-block;
+}
+
+img.bloch_call {
+	width: 400px;
+	display: inline-block;
+}
+img.bloch_jam {
+	width: 400px;
+	display: inline-block;
+}
+
+.bloch_images {
+	display: flex;
+	justify-content: space-around;
 }
 
 .call-ranges {
@@ -94,4 +112,72 @@ img {
 
 .extra {
 	@extend .range-description;
+}
+
+.bloch_tables {
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+}
+
+table {
+	width: 400px;
+	border: 5px solid black;
+	cursor: pointer;
+	padding: 5px;
+	td {
+		font-size: 11.5px;
+		font-weight: bold;
+		text-align: center;
+		border: 1px solid black;
+		height: 25px;
+		width: 28px;
+	}
+	td:hover {
+		background-color: black;
+		color: white;
+	}
+	td.pair {
+		background-color: green;
+	}
+	td.suited {
+		background-color: rgb(248, 115, 115);
+	}
+}
+
+table#bloch_call_hidden,
+table#bloch_jam_hidden {
+	@extend table;
+	border: 5px dotted black;
+	vertical-align: middle;
+	text-align: center;
+}
+
+.p-row,
+.c-row {
+	display: inline-block;
+	td {
+		display: block;
+	}
+}
+
+.villain-range {
+	text-align: center;
+	font-size: 45px;
+	font-weight: bold;
+	color: white;
+	background-color: black;
+	justify-content: center;
+	display: flex;
+	flex-direction: column;
+	padding: 5px;
+	width: auto;
+	height: auto;
+	border: 2px solid black;
+}
+
+@media screen and (max-width: 1250px) {
+	.bloch_tables {
+		transform: scale(0.85);
+	}
 }

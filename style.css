@@ -16,6 +16,10 @@ img {
   max-width: 100%;
 }
 
+.hidden {
+  display: none;
+}
+
 .call {
   text-align: center;
 }
@@ -34,7 +38,7 @@ img {
 
 .jump-nav {
   position: fixed;
-  top: 370px;
+  top: 780px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -72,6 +76,24 @@ img {
   display: inline-block;
 }
 
+img.bloch_call {
+  width: 400px;
+  display: inline-block;
+}
+
+img.bloch_jam {
+  width: 400px;
+  display: inline-block;
+}
+
+.bloch_images {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
 .call-ranges {
   background-color: red;
   width: 50%;
@@ -100,5 +122,90 @@ img {
   text-align: center;
   width: 275px;
   height: auto;
+}
+
+.bloch_tables {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+table, table#bloch_call_hidden,
+table#bloch_jam_hidden {
+  width: 400px;
+  border: 5px solid black;
+  cursor: pointer;
+  padding: 5px;
+}
+
+table td, table#bloch_call_hidden td, table#bloch_jam_hidden td {
+  font-size: 11.5px;
+  font-weight: bold;
+  text-align: center;
+  border: 1px solid black;
+  height: 25px;
+  width: 28px;
+}
+
+table td:hover, table#bloch_call_hidden td:hover, table#bloch_jam_hidden td:hover {
+  background-color: black;
+  color: white;
+}
+
+table td.pair, table#bloch_call_hidden td.pair, table#bloch_jam_hidden td.pair {
+  background-color: green;
+}
+
+table td.suited, table#bloch_call_hidden td.suited, table#bloch_jam_hidden td.suited {
+  background-color: #f87373;
+}
+
+table#bloch_call_hidden,
+table#bloch_jam_hidden {
+  border: 5px dotted black;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.p-row,
+.c-row {
+  display: inline-block;
+}
+
+.p-row td,
+.c-row td {
+  display: block;
+}
+
+.villain-range {
+  text-align: center;
+  font-size: 45px;
+  font-weight: bold;
+  color: white;
+  background-color: black;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 5px;
+  width: auto;
+  height: auto;
+  border: 2px solid black;
+}
+
+@media screen and (max-width: 1250px) {
+  .bloch_tables {
+    -webkit-transform: scale(0.85);
+            transform: scale(0.85);
+  }
 }
 /*# sourceMappingURL=style.css.map */
